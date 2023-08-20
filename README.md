@@ -45,7 +45,7 @@ If you have any **questions** or **suggestions** regarding this project, please 
 #
 <div align="center">
 
-### Show some ❤️ by starring this repositories!
+### Show some ❤️ by starring this repository!
 
 </div>
 
