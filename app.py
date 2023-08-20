@@ -28,6 +28,6 @@ if st.button('Risk Prediction'):
    # Apply model to make predictions
    prediction = model.predict([[city,Location_Score,Internal_Audit_Score,External_Audit_Score,Fin_Score,Loss_score,Past_Results]])
    if prediction == 0:
-      st.markdown('The :blue[financial risk] of the person is :green[Low]')
+      st.markdown('The :blue[financial risk] of this person is :green[Low]')
    else:
-      st.markdown('The :blue[financial risk] of the person is :red[High]')
+      st.markdown('The :blue[financial risk] of this person is :red[High]')
