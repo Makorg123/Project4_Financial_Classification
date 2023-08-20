@@ -19,7 +19,6 @@ with col3:
    Past_Results = st.slider('Past_Results', 0,10,1)
 
 if st.button('Risk Prediction'):
-   st.header('Risk Prediction')
    # Read the dataset
    df = pd.read_csv('Train.csv')
    df = df.drop(['IsUnderRisk'],axis=1)
