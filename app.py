@@ -25,7 +25,7 @@ if st.button('Risk Prediction'):
    df = df.drop(['IsUnderRisk'],axis=1)
    # Load the model
    import pickle
-   model = pickle.load(open('random_forest_model.pkl', 'rb'))
+   model = pickle.load(open('logistic_model.pkl', 'rb'))
    # Apply model to make predictions
    prediction = model.predict([[city,Location_Score,Internal_Audit_Score,External_Audit_Score,Fin_Score,Loss_score,Past_Results]])
    if prediction == 0:
